@@ -148,7 +148,7 @@ Here you can find bunch of advanced JSFIDDLE demos with different, non-standard 
 | `from` | `data-from` | `min` | number | Set start position for left handle (or for single handle) |
 | `to` | `data-to` | `max` | number | Set start position for right handle |
 | `step` | `data-step` | `1` | number | Set sliders step. Always > 0. Could be fractional |
-| `min_interval` | `data-min-interval` | `-` | number | Set minimum diapason between sliders. Only for **double** type |
+| `min_interval` | `data-min-interval` | `-` | number | Set minimum diapason (in milliseconds) between sliders. Only for **double** type |
 | `max_interval` | `data-max-interval` | `-` | number | Set minimum maximum between sliders. Only for **double** type |
 | `drag_interval` | `data-drag-interval` | `false` | boolean | Allow user to drag whole range. Only for **double** type |
 | `values` | `data-values` | `[]` | array | Set up your own array of possible slider values. They could be numbers or strings. If the values array is set up, min, max and step param, can no longer be changed |
